@@ -1,0 +1,49 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f3f4f6;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.carte {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Le message est caché par défaut (mais garde sa place pour que la page ne saute pas) */
+.message {
+  margin-top: 1rem;
+  color: #15803d;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.message.visible {
+  opacity: 1;
+}

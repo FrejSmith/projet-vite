@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.carte {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 420px;
+  max-width: 90vw;
+}
+
+#formulaire {
+  display: flex;
+  gap: 0.6rem;
+}
+
+#champ {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.erreur {
+  color: #e11d1d;
+  font-weight: bold;
+  font-size: 0.85rem;
+  margin: 0.8rem 0 0.5rem;
+  min-height: 1.1rem;
+}
+
+.liste {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-height: 2rem;
+}
+
+.pastille {
+  background: #e5e7eb;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.85rem;
+}
+
+.resume {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 0.7rem;
+  margin: 0;
+  font-family: "Courier New", monospace;
+  font-size: 0.8rem;
+}
