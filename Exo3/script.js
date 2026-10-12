@@ -32,7 +32,7 @@ formulaire.addEventListener('submit', (event) => {
     return
   }
 
-  // "chaussette" et "Chaussette" sont considérés comme le même tag
+  // "Smith" et "Smith" sont considérés comme le même tag
   const existeDeja = tags.some((tag) => tag.toLowerCase() === mot.toLowerCase())
 
   if (existeDeja) {
